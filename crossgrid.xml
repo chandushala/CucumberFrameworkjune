@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Selenium_grid">
+<test name="chrome">
+<parameter name="browser" value="chrome">
+</parameter>
+<classes>
+<class name="june10.OrangeHRM">
+</class>
+</classes>
+</test>
+<test name="firefox">
+<parameter name="browser" value="firefox">
+</parameter>
+<classes>
+<class name="june10.OrangeHRM">
+</class>
+</classes>
+</test>
+</suite>
+
+
+

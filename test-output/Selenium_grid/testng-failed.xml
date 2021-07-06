@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Selenium_grid]">
+  <test thread-count="5" name="firefox(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="june10.OrangeHRM">
+        <methods>
+          <include name="setup"/>
+          <include name="afterTest"/>
+          <include name="verifylogin"/>
+        </methods>
+      </class> <!-- june10.OrangeHRM -->
+    </classes>
+  </test> <!-- firefox(failed) -->
+</suite> <!-- Failed suite [Selenium_grid] -->
